@@ -1,0 +1,12 @@
+.footer-container{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    height: 100px;
+    width: 100%;
+}
+.my-info{
+    color: #fff; 
+    display:block;
+    padding:12px;
+    height: 75px;
+}
