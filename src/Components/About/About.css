@@ -1,0 +1,10 @@
+.about-me-container{
+    margin-top:50px;
+    margin-left: 5%;
+    width: 45%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+}
+.my-self-image{
+    border-radius: 12px;
+}
