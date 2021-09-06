@@ -29,7 +29,7 @@ function App() {
         </div>
         <Switch>
           <div className='App-Body'>
-            <Route exact path="/Home">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route exact path="/resume">
