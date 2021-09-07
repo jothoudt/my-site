@@ -1,10 +1,30 @@
+.about-me{
+    margin-top: 25px;
+}
 .about-me-container{
-    margin-top:50px;
-    margin-left: 5%;
-    width: 45%;
+    /* margin-left: 2%;
+    width: 45%; */
+    /* display: inline-flex; */
     display: grid;
     grid-template-columns: 45% 45%;
 }
 .my-self-image{
     border-radius: 12px;
+    display: block;
 }
+.about-me-info{
+    display:block;
+}
+@media screen and (max-width: 450px){
+    .about-me-container{
+        display: block;
+    }
+    .my-photo{
+        width: 100%;
+    }
+    .about-me-info{
+        width: 100%;
+        display:block
+    }
+}
+

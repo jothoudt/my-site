@@ -1,14 +1,17 @@
 import React from 'react';
+import './CurrentlyWorkingOn.css'
 
 function CurrentlyWorkingOn(){
     return(
         <div>
             <h2><u>Things I am currently working on.</u></h2>
             <div>
-                <h3>1.Ecommerce App</h3>
-                <p>I am currently working on an Ecommerce App. 
-                    The app is being built using React, Redux, Node, Express, PostgreSQL, Material UI and Stripe Checkout.
-                </p>
+                <div>
+                    <h3>1.Ecommerce App</h3>
+                    <p>I am currently working on an Ecommerce App. 
+                        The app is being built using React, Redux, Node, Express, PostgreSQL, Material UI and Stripe Checkout.
+                    </p>
+                </div>
             </div>
             <div>
                 <h3>2. Job Searching</h3>
@@ -24,4 +27,4 @@ function CurrentlyWorkingOn(){
     )
 }
 
-export default CurrentlyWorkingOn.apply;
+export default CurrentlyWorkingOn;

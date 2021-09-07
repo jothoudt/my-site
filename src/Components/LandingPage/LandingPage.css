@@ -6,3 +6,9 @@
 .emphasize{
     color: red;
 }
+@media screen and (max-width: 600px){
+    .Box{
+        width:90%;
+    }
+}
+

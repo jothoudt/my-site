@@ -1,0 +1,27 @@
+.home-container{
+    display: flexbox;
+    grid-template-columns: 45% 45%;
+}
+.about-component{
+    width: 45%;
+    float: left;
+    white-space: normal;
+    display: flex;
+}
+.current-projects-component{
+    width: 45%;
+    float: right;
+    white-space: normal;
+    display:flex;
+}
+@media screen and (max-width: 980px){
+   .about-component{
+       width:100%;
+       display: block
+   }
+   .current-projects-component{
+       width: 100%;
+       display: block;
+   }
+    
+}
