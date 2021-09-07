@@ -4,7 +4,7 @@ import './About.css'
 function About(){
 
     return(
-        <div>
+        <div classname="about-me">
             <div  className="about-me-container">
                 <div className="my-photo">
                     <img className="my-self-image" src="https://i.imgur.com/PpFib9h.jpg" alt="Picture of Jonathan Othoudt"></img>
@@ -16,8 +16,6 @@ function About(){
                         video games, music and dancing, playing and watching a variety of sports, and traveling with my family.
                     </p>
                 </div>
-            </div>
-            <div>
             </div>
         </div>
     )
