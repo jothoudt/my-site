@@ -11,6 +11,7 @@ function Header(){
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="/#/resume">Resume</Nav.Link>
+                            <Nav.Link href="/#/projects">Projects</Nav.Link>
                         </Nav>
                     </Container>
                     <Container className="d-flex justify-content-end">
