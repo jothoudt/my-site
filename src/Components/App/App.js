@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 //components
-import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import Home from '../Home/Home';
 import LandingPage from '../LandingPage/LandingPage';
-import Resume from '../Resume/Resume'
+import Projects from '../Projects/Projects';
+import Resume from '../Resume/Resume';
 //css import
 import './App.css'
 
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route exact path="/resume">
               <Resume />
+            </Route>
+            <Route>
+              <Projects />
             </Route>
           </div>
         </Switch>
