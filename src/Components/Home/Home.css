@@ -1,5 +1,5 @@
 .home-container{
-    display: flexbox;
+    display: grid;
     grid-template-columns: 45% 45%;
 }
 .about-component{
@@ -17,7 +17,8 @@
     margin-right: 25px;
 }
 .languages-info{
-    width: 90%;
+    margin-top: 25px;
+    width: 100%;
 }
 @media screen and (max-width: 980px){
    .about-component{
