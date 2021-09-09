@@ -1,16 +1,18 @@
 .languages-container{
-    grid-template-columns: 30% 30% 30%;
+    margin-top: 20px;
+    grid-template-columns: 32% 32% 32%;
     display: grid;
+    width:100%;
 }
 .frequently-used{
-    width: 30%;
     display:inline-block;
+    list-style-position: inside;
 }
 .tech-used{
-    width:30%;
     display:inline-block;
+    list-style-position: inside;
 }
 .soft-skills{
-    width:30%;
-    display: inline-block
+    display: inline-block;
+    list-style-position: inside;
 }

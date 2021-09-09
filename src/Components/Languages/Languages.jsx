@@ -6,15 +6,17 @@ function Languages(){
         <div className="languages-container" >
             <div className="frequently-used">
                 <div >
-                    <h3>Languages and Technologies I have used frequently:</h3>
+                    <h3>Technologies I have used frequently:</h3>
                 </div>
                 <div>
                 <ul>
+                    <li>Javascript</li>
                     <li>React</li>
                     <li>Redux</li>
                     <li>Node</li>
                     <li>Express</li>
                     <li>PostgreSQL</li>
+                    <li>CSS</li>
                     <li>Material UI</li>
                     <li>Bootstrap</li>
                     <li>Git</li>
@@ -31,6 +33,8 @@ function Languages(){
                         <ul>
                             <li>Python</li>
                             <li>Ruby on Rails</li>
+                            <li>TypeScript</li>
+                            <li>Stripe</li>
                         </ul>
                     </div>
                 </div>

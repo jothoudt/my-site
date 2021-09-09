@@ -7,15 +7,17 @@ import './Home.css'
 function Home(){
     return(
         <div>
-            <h1>Home</h1>
-                <div classname="home-container">
-                    <div className="about-component">
-                        <About />
-                    </div>
-                    <div className="current-projects-component">
-                        <CurrentlyWorkingOn />
-                    </div>                    
+            <div>
+                <h1>Home</h1>
+            </div>
+            <div classname="home-container">
+                <div className="about-component">
+                    <About />
                 </div>
+                <div className="current-projects-component">
+                    <CurrentlyWorkingOn />
+                </div>                    
+            </div>
             <div className="languages-info">
                 <Languages />
             </div>
