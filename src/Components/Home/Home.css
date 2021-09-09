@@ -4,6 +4,7 @@
 }
 .about-component{
     width: 45%;
+    margin-left: 25px;
     float: left;
     white-space: normal;
     display: flex;
@@ -13,6 +14,10 @@
     float: right;
     white-space: normal;
     display:flex;
+    margin-right: 25px;
+}
+.languages-info{
+    width: 90%;
 }
 @media screen and (max-width: 980px){
    .about-component{

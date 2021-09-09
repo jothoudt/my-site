@@ -1,0 +1,16 @@
+.languages-container{
+    grid-template-columns: 30% 30% 30%;
+    display: grid;
+}
+.frequently-used{
+    width: 30%;
+    display:inline-block;
+}
+.tech-used{
+    width:30%;
+    display:inline-block;
+}
+.soft-skills{
+    width:30%;
+    display: inline-block
+}
