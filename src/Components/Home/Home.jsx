@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import CurrentlyWorkingOn from '../CurrentlyWorkingOn/CurrentlyWorkingOn';
+import Languages from '../Languages/Languages';
 import './Home.css'
 
 function Home(){
@@ -13,8 +14,11 @@ function Home(){
                     </div>
                     <div className="current-projects-component">
                         <CurrentlyWorkingOn />
-                    </div>
+                    </div>                    
                 </div>
+            <div className="languages-info">
+                <Languages />
+            </div>
         </div>
     )
 }

@@ -36,7 +36,7 @@ function App() {
             <Route exact path="/resume">
               <Resume />
             </Route>
-            <Route>
+            <Route exact path="/projects">
               <Projects />
             </Route>
           </div>
