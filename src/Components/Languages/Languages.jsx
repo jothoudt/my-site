@@ -1,9 +1,10 @@
 import React from 'react';
+import Box from '@material-ui/core/Box';
 import './Languages.css'
 
 function Languages(){
     return(
-        <div className="languages-container" >
+        <Box className="languages-container" border={2} boxShadow={12} style={{padding:"10px", width:"90%", marginLeft:"auto", marginRight:"auto", marginTop:"25px"}} borderColor="black">
             <div className="frequently-used">
                 <div >
                     <h3>Technologies I have used frequently:</h3>
@@ -56,7 +57,7 @@ function Languages(){
                 </div>
                 </div>
             </div> 
-        </div>
+        </Box>
     )
 }
 

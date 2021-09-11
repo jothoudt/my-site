@@ -1,10 +1,11 @@
 import React from 'react';
+import Box from '@material-ui/core/Box';
 import './About.css'
 
 function About(){
 
     return(
-        <div classname="about-me">
+        <Box classname="about-me" border={2} boxShadow={12} style={{padding:"10px"}} borderColor="black">
             <div  className="about-me-container">
                 <div className="my-photo">
                     <img className="my-self-image" src="https://i.imgur.com/PpFib9h.jpg" alt="Picture of Jonathan Othoudt"></img>
@@ -17,7 +18,7 @@ function About(){
                     </p>
                 </div>
             </div>
-        </div>
+        </Box>
     )
 }
 

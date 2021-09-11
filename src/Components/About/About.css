@@ -9,8 +9,9 @@
     grid-template-columns: 45% 45%;
 }
 .my-self-image{
-    border-radius: 12px;
+    border-radius: 16px;
     display: block;
+    border: 5px solid black;
 }
 .about-me-info{
     display:block;

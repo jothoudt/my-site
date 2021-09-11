@@ -1,3 +1,7 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
 .home-container{
     display: grid;
     grid-template-columns: 45% 45%;

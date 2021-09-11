@@ -6,7 +6,7 @@ import './Home.css'
 
 function Home(){
     return(
-        <div>
+        <div className="grid-container">
             <div>
                 <h1>Home</h1>
             </div>

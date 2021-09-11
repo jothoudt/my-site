@@ -1,9 +1,10 @@
 import React from 'react';
+import Box from '@material-ui/core/Box';
 import './CurrentlyWorkingOn.css'
 
 function CurrentlyWorkingOn(){
     return(
-        <div>
+        <Box border={2} boxShadow={12} style={{padding:"10px"}} borderColor="black">
             <h2><u>Things I am currently working on.</u></h2>
             <div>
                 <div>
@@ -23,7 +24,7 @@ function CurrentlyWorkingOn(){
                 <h6>3. Learning new technologies and languages.</h6>
                 <p>There is always something new to learn so I like build projects in languages that are new to me and experiment with different tech.</p>
             </div>
-        </div>
+        </Box>
     )
 }
 
