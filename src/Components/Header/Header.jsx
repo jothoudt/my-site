@@ -10,8 +10,8 @@ function Header(){
                     <Navbar.Brand href="#home">Jonathan Othoudt</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="/#/resume">Resume</Nav.Link>
                             <Nav.Link href="/#/projects">Projects</Nav.Link>
+                            <Nav.Link href='resources/Jonathan_Othoudt_Resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Nav.Link>
                         </Nav>
                     </Container>
                     <Container className="d-flex justify-content-end">
