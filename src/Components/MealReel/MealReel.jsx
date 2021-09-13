@@ -1,5 +1,5 @@
 import React from 'react';
-
+//This component will display the details of the MealReel project that I built.
 function MealReel(){
     return(
         <div>

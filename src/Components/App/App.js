@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 //components
+import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Home from '../Home/Home';
@@ -11,16 +12,20 @@ import Resume from '../Resume/Resume';
 import './App.css'
 
 function App() {
+  //use state variable to establish what will be displayed
   let [isLandingPage, setIsLandingPage]=useState(true);
-
+  //this conditionally renders the display
   const appDisplay =()=>{
     let display=''
+    /* If the user is just arriving to the page the display
+   will be a full view landing page */
     if(isLandingPage === true){
       display=
       <>
         <LandingPage setIsLandingPage={setIsLandingPage} />
       </>
     }
+    //otherwise when they click next on the landing page it will display the main app
     else{
       display=
       <Router>
@@ -32,6 +37,9 @@ function App() {
           <div className='App-Body'>
             <Route exact path={["/","/home"]}>
               <Home />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
             </Route>
             <Route exact path="/resume">
               <Resume />

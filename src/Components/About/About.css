@@ -16,6 +16,7 @@
 .about-me-info{
     display:block;
 }
+/* For Smaller Screens */
 @media screen and (max-width: 450px){
     .about-me-container{
         display: block;

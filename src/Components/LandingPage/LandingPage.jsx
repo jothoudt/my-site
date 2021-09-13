@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import './LandingPage.css';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-
+//This component will be the first thing a user sees when visiting my website
 function LandingPage({setIsLandingPage}){
     const matches = useMediaQuery('(min-width:600px)');
     return(
