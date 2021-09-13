@@ -7,7 +7,8 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import YourPath from '../YourPath/YourPath';
 import MealReel from '../MealReel/MealReel';
-
+/* This will be the main component for projects that I have worked on.
+It will display tabs on the top that the user can switch between projects. */
 function Projects(){
     function TabPanel(props) {
         const { children, value, index, ...other } = props;
@@ -21,7 +22,7 @@ function Projects(){
             {...other}
           >
             {value === index && (
-              <Box p={3}>
+              <Box style={{width:"90%", marginLeft:"auto", marginRight:"auto"}}p={3}>
                 <Typography>{children}</Typography>
               </Box>
             )}

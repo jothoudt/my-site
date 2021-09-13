@@ -3,7 +3,9 @@ import About from '../About/About';
 import CurrentlyWorkingOn from '../CurrentlyWorkingOn/CurrentlyWorkingOn';
 import Languages from '../Languages/Languages';
 import './Home.css'
-
+/* This component will be the main page. It
+will display my photo, an about me section and list of technologies I've worked
+with.*/
 function Home(){
     return(
         <div className="grid-container">

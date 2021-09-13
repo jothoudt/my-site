@@ -1,6 +1,7 @@
 import React from 'react';
 import './Resume.css'
 
+//This component will display my resume as a popup
 function Resume(){
     return(
         <div className="resume-container">

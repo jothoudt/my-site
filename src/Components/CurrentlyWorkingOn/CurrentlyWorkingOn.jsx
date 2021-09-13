@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import './CurrentlyWorkingOn.css'
-
+//this component will display things I am currently working on
 function CurrentlyWorkingOn(){
     return(
         <Box border={2} boxShadow={12} style={{padding:"10px"}} borderColor="black">

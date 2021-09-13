@@ -1,6 +1,7 @@
 import React from 'react';
 import './YourPath.css'
 
+//This component will display the details of the YourPath project that I have worked on.
 function YourPath(){
     return(
         <div>

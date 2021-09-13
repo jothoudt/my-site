@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import './Languages.css'
-
+//This will display the technologies and skills
 function Languages(){
     return(
         <Box className="languages-container" border={2} boxShadow={12} style={{padding:"10px", width:"90%", marginLeft:"auto", marginRight:"auto", marginTop:"25px"}} borderColor="black">

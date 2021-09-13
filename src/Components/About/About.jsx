@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import './About.css'
-
+// This component returns my photo and a small about me section
 function About(){
 
     return(
