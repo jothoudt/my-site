@@ -10,7 +10,7 @@ function YourPath(){
             </div>
             <div>
                 <img className="project-photos" src="https://i.imgur.com/mRnDe0f.png" height="270px" width="500px"></img>
-                <img className="project-photos" src="https://i.imgur.com/qDumkGg.png" height="270px" width="500px" ></img>
+                <img className="project-photos" src="https://i.imgur.com/XaEHYfs.png" height="270px" width="500px" ></img>
             </div>
             <div className="project-description">
                 <h3><u>Description:</u></h3>
