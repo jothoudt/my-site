@@ -3,6 +3,7 @@ import React from 'react';
 //this component displays contact info
 
 function Contact(){
+
     return(
         <div>
             <div>
