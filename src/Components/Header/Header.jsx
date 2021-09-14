@@ -4,6 +4,10 @@ import SocialMedia from '../SocialMedia/SocialMedia';
 import Pdf from '../resources/Jonathan_Othoudt_Resume.pdf'
 //this component will be for the bootstrap nav bar
 function Header(){
+    const onResumeClick=()=> {
+        window.open(Pdf);
+      }
+      
     return(
         <>
             <Navbar bg="dark" variant="dark">
@@ -13,7 +17,7 @@ function Header(){
                             <Nav.Link href="#home">Home</Nav.Link>
                             <Nav.Link href="/#/projects">Projects</Nav.Link>
                             <Nav.Link href="/#/contact">Contact Me</Nav.Link>
-                            <Nav.Link href={Pdf} content-type= 'application/pdf' target='_blank' rel='noopener noreferrer'>Resume</Nav.Link>
+                            <Nav.Link onClick={onResumeClick} target='_blank' rel='noopener noreferrer'>Resume</Nav.Link>
                         </Nav>
                     </Container>
                     <Container className="d-flex justify-content-end">
