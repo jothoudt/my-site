@@ -30,16 +30,29 @@
     margin-bottom: 50px;
 }
 @media screen and (max-width: 980px){
+    .grid-container{
+        width: 100vw;
+    }
+    .home-container{
+        width: 100vw;
+    }
    .about-component{
-       width:100%;
+       width:100vw;
        display: block;
-       margin-left: auto;
+       margin-left: 0;
+       margin-bottom:100px;
    }
    .current-projects-component{
-       align-content: center;
-       width: 100%;
+       width: 100vw;
        display: block;
        margin-top: 25px;
+       margin-bottom: 80px;
+   }
+   .languages-info{
+       width: 100vw;
+       display:block;
+       margin-left: 0;
+
    }
     
 }
