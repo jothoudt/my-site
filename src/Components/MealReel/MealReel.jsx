@@ -14,8 +14,9 @@ function MealReel(){
                     <h3><u>Description:</u></h3>
                 </div>
                 <div>
-                    <p>MealReel is a recipe app. The app allows users to search for recipes, select a random recipe, save their favorite recipes,
-                        and also allows users to share their own recipes. This project was built in 2 weeks using React, Redux, Node, Express, PostgreSQL and Tasty API.
+                    <p>a full CRUD web application with RESTful API. The app allows users to find and try new recipes, which can
+                        easily be saved and added to favorites for future use. This project was built in 2 weeks using React,
+                        Redux, Node, Express, PostgreSQL and Tasty API.
                     </p>
                 </div>
             </div>
