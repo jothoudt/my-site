@@ -1,0 +1,10 @@
+/* This is to format the description text */
+.descriptions-of-projects{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+/* this is used to add some space between the bottom of the text and the footer */
+.back-end-div{
+    margin-bottom: 50px;
+}

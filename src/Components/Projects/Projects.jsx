@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import YourPath from '../YourPath/YourPath';
 import MealReel from '../MealReel/MealReel';
+import TodoApp from '../TodoApp/TodoApp';
 /* This will be the main component for projects that I have worked on.
 It will display tabs on the top that the user can switch between projects. */
 function Projects(){
@@ -77,12 +78,16 @@ function Projects(){
           >
             <Tab label="YourPath" {...a11yProps(0)} />
             <Tab label="MealReel" {...a11yProps(1)} />
+            <Tab label="To-Do Apps" {...a11yProps(1)} />
           </Tabs>
           <TabPanel value={value} index={0} dir={theme.direction}>
             <YourPath />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
             <MealReel />
+          </TabPanel>
+          <TabPanel value={value} index={2} dir={theme.direction}>
+            <TodoApp />
           </TabPanel>
       </div>
     )

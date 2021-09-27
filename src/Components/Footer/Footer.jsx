@@ -10,7 +10,7 @@ function Footer(){
             <div className="my-info">
                 Jonathan Othoudt
                 <br></br>
-                (763)706-7010 || othoudtjonathan@gmail.com
+                (763) 706-7010 || othoudtjonathan@gmail.com
             </div>
         </div>
     )

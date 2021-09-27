@@ -14,7 +14,7 @@ function MealReel(){
                     <h3><u>Description:</u></h3>
                 </div>
                 <div>
-                    <p>a full CRUD web application with RESTful API. The app allows users to find and try new recipes, which can
+                    <p> This is a full CRUD web application with a RESTful API. The app allows users to find and try new recipes, which can
                         easily be saved and added to favorites for future use. This project was built in 2 weeks using React,
                         Redux, Node, Express, PostgreSQL and Tasty API.
                     </p>
