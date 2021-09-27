@@ -16,3 +16,26 @@
     display: inline-block;
     list-style-position: inside;
 }
+.languages-container-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 980px){
+    .languages-container{
+        display:none;
+    }
+    .languages-container-mobile{
+        display:block
+    }
+    .frequently-used{
+        width: 100vw;
+    }
+    .tech-used{
+        display: block;
+        width: 100vw;
+    }
+    .soft-skills{
+        display: block;
+        width: 100vw;
+    }
+}
