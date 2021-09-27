@@ -1,24 +1,28 @@
 .grid-container{
     display: grid;
     grid-template-rows: auto auto auto;
+    width: 95%
 }
 .home-container{
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 48% 48%;
+    width: 90%;
 }
 .about-component{
     width: 45%;
-    margin-left: 25px;
+    margin-left: 92px;
     float: left;
     white-space: normal;
     display: flex;
+    height: 400px;
 }
 .current-projects-component{
-    width: 45%;
+    width: 40%;
     float: right;
     white-space: normal;
     display:flex;
-    margin-right: 25px;
+    margin-right: 88px;
+    height: 400px;
 }
 .languages-info{
     margin-top: 25px;
@@ -28,9 +32,11 @@
 @media screen and (max-width: 980px){
    .about-component{
        width:100%;
-       display: block
+       display: block;
+       margin-left: auto;
    }
    .current-projects-component{
+       align-content: center;
        width: 100%;
        display: block;
        margin-top: 25px;

@@ -22,6 +22,7 @@ function Languages(){
                     <li>Bootstrap</li>
                     <li>Git</li>
                     <li>Github</li>
+                    <li>Heroku</li>
                 </ul>      
                 </div>
             </div>
