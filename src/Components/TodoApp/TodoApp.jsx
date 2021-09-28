@@ -8,7 +8,7 @@ function TodoApp(){
                 <h2><u>To-do Lists</u></h2>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/SZxGouG.png" height="60%" width="60%"></img>
+                <img className="project-photos" src="https://i.imgur.com/wDfdKvt.png" height="60%" width="60%"></img>
             </div>
             <div className="project-description">
                 <div>
