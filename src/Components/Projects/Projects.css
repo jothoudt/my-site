@@ -1,0 +1,12 @@
+.project-container-box-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .project-container-box{
+        display:none;
+    }
+    .project-container-box-mobile{
+        display:block;
+    }
+}

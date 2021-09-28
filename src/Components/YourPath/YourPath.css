@@ -10,3 +10,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 980px){
+    .project-photos{
+        width:100vw;
+        margin-left: 0;
+    }
+}

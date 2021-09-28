@@ -6,10 +6,10 @@ import './SocialMedia.css'
 function SocialMedia(){
 
     return(
-        <>
+        <div>
             <SocialIcon url="https://www.linkedin.com/in/jonathan-othoudt-89b45789/" style={{margin: "2px"}} />
             <SocialIcon url="https://github.com/jothoudt" style={{margin: "2px"}} bgColor="white" />
-        </>
+        </div>
     )
 }
 
