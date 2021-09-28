@@ -31,7 +31,7 @@ function Languages(){
             <div className="tech-used">
                 <div>
                     <div>
-                        <h3>Languages and Technologies I have some experience with</h3>
+                        <h3>Technologies I have some experience with:</h3>
                     </div>
                     <div>
                         <ul>
@@ -87,7 +87,7 @@ function Languages(){
         <div className="tech-used">
             <div>
                 <div>
-                    <h3>Languages and Technologies I have some experience with</h3>
+                    <h3>Technologies I have some experience with:</h3>
                 </div>
                 <div>
                     <ul>

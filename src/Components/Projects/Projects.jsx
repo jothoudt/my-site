@@ -8,6 +8,7 @@ import Box from '@material-ui/core/Box';
 import YourPath from '../YourPath/YourPath';
 import MealReel from '../MealReel/MealReel';
 import TodoApp from '../TodoApp/TodoApp';
+import './Projects.css'
 /* This will be the main component for projects that I have worked on.
 It will display tabs on the top that the user can switch between projects. */
 function Projects(){
@@ -23,9 +24,14 @@ function Projects(){
             {...other}
           >
             {value === index && (
-              <Box style={{width:"90%", marginLeft:"auto", marginRight:"auto"}}p={3}>
+              <>
+              <Box className="project-container-box" style={{width:"90%", marginLeft:"auto", marginRight:"auto"}}p={3}>
                 <Typography>{children}</Typography>
               </Box>
+              <Box className="project-container-box-mobile" style={{width:"100vw",marginLeft:'0px', padding:'0px'}}p={3}>
+                <Typography>{children}</Typography>
+              </Box>
+            </>
             )}
           </div>
         );

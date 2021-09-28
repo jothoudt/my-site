@@ -19,6 +19,9 @@ function Header(){
                     <Navbar.Brand href="#home">Jonathan Othoudt</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav>
+                        <SocialMedia />
+                    </Nav>
                     <Nav class="show-mobile" className="me-auto">
                         <NavDropdown title="Menu" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#home">Home</NavDropdown.Item>

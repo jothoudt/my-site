@@ -4,7 +4,7 @@ import './YourPath.css'
 //This component will display the details of the YourPath project that I have worked on.
 function YourPath(){
     return(
-        <div>
+        <div className="this-project-container">
             <div>
                 <h2><u>YourPath</u></h2>
             </div>
