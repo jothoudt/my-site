@@ -8,7 +8,7 @@ function TodoApp(){
                 <h2><u>To-do Lists</u></h2>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/wDfdKvt.png" height="60%" width="60%"></img>
+                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="60%" width="60%"></img>
             </div>
             <div className="project-description">
                 <div>
@@ -35,8 +35,9 @@ function TodoApp(){
                             technologies, that will work with this app.</p>
                         <ul>
                             Please click the names to view the repositories.
-                            <li><a href="https://github.com/jothoudt/backend-todo-node-express">Node/Express/PostgreSQL</a></li>
-                            <li><a href="https://github.com/jothoudt/python-to-do-backend">Python/Flask/PostgreSQL </a></li>
+                            <li><a href="https://github.com/jothoudt/backend-todo-node-express"> Node/Express/PostgreSQL</a></li>
+                            <li><a href="https://github.com/jothoudt/python-to-do-backend"> Python/Flask/PostgreSQL </a></li>
+                            <li><a href="https://github.com/jothoudt/spring-backend-todo"> Java/Spring/PostgreSQL </a></li>
                         </ul>
                     </div>
                 </div>
