@@ -8,7 +8,25 @@ function TodoApp(){
                 <h2><u>To-do Lists</u></h2>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="60%" width="60%"></img>
+                <h3>Technologies used:</h3>
+                <strong><u>Front-end:</u></strong>
+                <ul className="tech-list">
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Material UI</li>
+                </ul>
+            </div>
+            <div>
+                <strong><u>Back-end(multiple back-end applications with different technologies):</u></strong>
+                <ul className="tech-list">
+                    <li>Node/Express</li>
+                    <li>Python/Flask</li>
+                    <li>Java/Spring</li>
+                    <li>PostgreSQL</li>
+                </ul>
+            </div>
+            <div>
+                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="50%" width="50%"></img>
             </div>
             <div className="project-description">
                 <div>
@@ -33,7 +51,7 @@ function TodoApp(){
                         <h4><u>Back-end</u></h4>
                         <p>There are few different back-end applications, built with different
                             technologies, that will work with this app.</p>
-                        <ul>
+                        <ul className="todo-projects-list">
                             Please click the names to view the repositories.
                             <li><a href="https://github.com/jothoudt/backend-todo-node-express"> Node/Express/PostgreSQL</a></li>
                             <li><a href="https://github.com/jothoudt/python-to-do-backend"> Python/Flask/PostgreSQL </a></li>

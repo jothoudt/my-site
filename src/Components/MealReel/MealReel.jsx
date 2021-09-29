@@ -7,6 +7,18 @@ function MealReel(){
                 <h2><u>MealReel</u></h2>
             </div>
             <div>
+                <h3>Technologies used:</h3>
+                <ul className="tech-list">
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>Material UI</li>
+                    <li>Tasty API</li>
+                </ul>
+            </div>
+            <div>
                 <img className="project-photos" src="https://i.imgur.com/qcLjnmr.png" height="60%" width="60%"></img>
             </div>
             <div className="project-description">

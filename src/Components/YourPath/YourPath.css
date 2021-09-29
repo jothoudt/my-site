@@ -3,6 +3,12 @@
     margin:5px;
     border: 3px solid black;
 }
+.tech-list li{
+    margin: 8px;
+    display: inline;
+    color: red;
+    font-size:x-large;
+}
 /* this is to format the text of the description */
 .project-description{
     width:65%;
@@ -11,7 +17,7 @@
     margin-right: auto;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 650px){
     .project-photos{
         width:100vw;
         margin-left: 0;
