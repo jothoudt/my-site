@@ -1,0 +1,15 @@
+.label-contact{
+    font-size: large;
+    color:red;
+    margin-right: 5px;
+}
+.contact-photo{
+    width: 100%; 
+    /* background-image: url('https://i.imgur.com/EQuwGo2.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.contact-container{
+    width:100%;
+}
