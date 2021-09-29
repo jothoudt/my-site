@@ -14,7 +14,7 @@
     float: left;
     white-space: normal;
     display: flex;
-    height: 400px;
+    height: 450px;
 }
 .current-projects-component{
     width: 40%;
@@ -22,13 +22,42 @@
     white-space: normal;
     display:flex;
     margin-right: 88px;
-    height: 400px;
+    height: 450px;
 }
 .languages-info{
     margin-top: 25px;
     width: 100%;
     margin-bottom: 50px;
 }
+/* for larger mid size screens */
+@media screen and (min-width: 981px) and (max-width:1265px){
+    .grid-conainer{
+        width: 100vw;
+    }
+    .home-container{
+        width:100vw;
+        grid-template-columns: none;
+    }
+    .about-component{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        display: block;
+        height: 350px;
+    }
+    .current-projects-component{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        height: 350px;
+        display: block;
+    }
+
+}
+/* for small and mid size screens */
 @media screen and (max-width: 980px){
     .grid-container{
         width: 100vw;
@@ -40,19 +69,29 @@
        width:100vw;
        display: block;
        margin-left: 0;
-       margin-bottom:100px;
+       margin-bottom:50px;
+       height: 280px;
    }
    .current-projects-component{
        width: 100vw;
        display: block;
-       margin-top: 25px;
-       margin-bottom: 80px;
+       margin-top: 30px;
+       height: 400px;
+       /* margin-bottom: 80px; */
    }
    .languages-info{
        width: 100vw;
        display:block;
        margin-left: 0;
 
-   }
-    
+   }   
+}
+/* for small screens */
+@media screen and (max-width: 500px){
+    .about-component{
+        height:480px;
+    }
+    .current-projects-component{
+        height: 540px;
+    }
 }

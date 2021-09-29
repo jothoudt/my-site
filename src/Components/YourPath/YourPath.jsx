@@ -9,6 +9,17 @@ function YourPath(){
                 <h2><u>YourPath</u></h2>
             </div>
             <div>
+                <h3>Technologies used:</h3>
+                <ul className="tech-list">
+                    <li>React</li>
+                    <li>Redux</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>PostgreSQL</li>
+                    <li>Material UI</li>
+                </ul>
+            </div>
+            <div>
                 <img className="project-photos" src="https://i.imgur.com/mRnDe0f.png" height="270px" width="500px"></img>
                 <img className="project-photos" src="https://i.imgur.com/XaEHYfs.png" height="270px" width="500px" ></img>
             </div>
