@@ -19,7 +19,7 @@ function MealReel(){
                 </ul>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/qcLjnmr.png" height="60%" width="60%"></img>
+                <img className="project-photos" src="https://i.imgur.com/qcLjnmr.png" height="50%" width="50%"></img>
             </div>
             <div className="project-description">
                 <div>
