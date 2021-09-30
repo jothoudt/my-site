@@ -4,7 +4,7 @@ function MealReel(){
     return(
         <div>
             <div>
-                <h2><u>MealReel</u></h2>
+                <h2 className="this-project-title"><u>MealReel</u></h2>
             </div>
             <div>
                 <h3>Technologies used:</h3>
