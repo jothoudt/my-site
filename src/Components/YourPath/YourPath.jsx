@@ -6,7 +6,7 @@ function YourPath(){
     return(
         <div className="this-project-container">
             <div>
-                <h2><u>YourPath</u></h2>
+                <h2 className="this-project-title"><u>YourPath</u></h2>
             </div>
             <div>
                 <h3>Technologies used:</h3>

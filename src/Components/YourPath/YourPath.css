@@ -3,6 +3,9 @@
     margin:5px;
     border: 3px solid black;
 }
+.this-project-title{
+    margin-top:30px;
+}
 .tech-list li{
     margin: 8px;
     display: inline;
@@ -21,5 +24,12 @@
     .project-photos{
         width:100vw;
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 800px){
+    .tech-list li{
+        display: list-item;
+        list-style-position: inside;
+        font-size:medium;
     }
 }
