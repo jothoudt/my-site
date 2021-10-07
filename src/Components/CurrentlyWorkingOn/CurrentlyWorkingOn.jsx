@@ -16,13 +16,13 @@ function CurrentlyWorkingOn(){
             </div>
             <div>
                 <h6>2. Job Searching</h6>
-                <p>I currently searching for my first role as a developer. I am interested in finding a position with a good team where I can 
+                <p>I am currently searching for my first role as a developer. I am interested in finding a position with a good team where I can 
                     jump in and get started in my journey to becoming an experienced developer.
                 </p>
             </div>
             <div>
                 <h6>3. Learning new technologies and languages.</h6>
-                <p>There is always something new to learn so I like build projects in languages that are new to me and experiment with different tech.</p>
+                <p>There is always something new to learn so I like to build projects in languages that are new to me and experiment with different tech.</p>
             </div>
         </Box>
     )

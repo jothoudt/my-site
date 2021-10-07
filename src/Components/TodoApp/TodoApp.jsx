@@ -26,7 +26,7 @@ function TodoApp(){
                 </ul>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="50%" width="50%"></img>
+                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="45%" width="45%"></img>
             </div>
             <div className="project-description">
                 <div>
@@ -38,7 +38,7 @@ function TodoApp(){
                             The to-do list is a full CRUD application that allows users to view added tasks,
                             add new tasks, update the task to complete and remove tasks. The styling changes
                             when a task is marked complete and also adds a timestamp from when it was completed.
-                            I have built a few differet To-do applications to help me explore new technologies.    
+                            I have built a few different To-do applications to help me explore new technologies.    
                         </p>
                     </div>
                     <div>

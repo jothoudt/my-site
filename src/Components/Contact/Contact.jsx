@@ -11,7 +11,10 @@ function Contact(){
     return(
         <div className="contact-container">
             <div className="contact-photo">
-                <img src="https://i.imgur.com/EQuwGo2.png"  width="100%" />
+                <img src="https://i.imgur.com/EQuwGo2.png"  width="100%"/>
+            </div>
+            <div className="contact-text">
+                <h2><i>Let's have a chat!</i></h2>
             </div>
             <div>
                 <PhoneIcon style={{fontSize:"36px", marginTop:"25px", marginBottom: "12px"}} />
