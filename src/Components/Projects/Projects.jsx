@@ -90,10 +90,10 @@ function Projects(){
             <TodoApp />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
-            <MealReel />
+          <YourPath /> 
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
-            <YourPath /> 
+            <MealReel />            
           </TabPanel>
       </div>
     )
