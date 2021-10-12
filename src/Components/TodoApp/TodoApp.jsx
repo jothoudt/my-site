@@ -26,7 +26,7 @@ function TodoApp(){
                 </ul>
             </div>
             <div>
-                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="45%" width="45%"></img>
+                <img className="project-photos" src="https://i.imgur.com/qALX32u.png" height="40%" width="40%"></img>
             </div>
             <div className="project-description">
                 <div>

@@ -87,13 +87,13 @@ function Projects(){
             <Tab label="To-Do Apps" {...a11yProps(1)} />
           </Tabs>
           <TabPanel value={value} index={0} dir={theme.direction}>
-            <YourPath />
+            <TodoApp />
           </TabPanel>
           <TabPanel value={value} index={1} dir={theme.direction}>
             <MealReel />
           </TabPanel>
           <TabPanel value={value} index={2} dir={theme.direction}>
-            <TodoApp />
+            <YourPath /> 
           </TabPanel>
       </div>
     )

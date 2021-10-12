@@ -1,9 +1,14 @@
 .grid-container{
+    margin-top: 25px;
     display: grid;
     grid-template-rows: auto auto auto;
-    width: 95%
+    width: 95%;
+}
+.home-title{
+    margin-bottom: 25px;
 }
 .home-container{
+    margin-top: 25px;
     display: grid;
     grid-template-columns: 48% 48%;
     width: 90%;

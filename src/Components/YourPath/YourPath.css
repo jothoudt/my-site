@@ -5,11 +5,6 @@
 }
 .project-photos:hover{
     transform: scale(1.4);
-
-    position: "absolute";
-    top: "50%";
-    left: "50%";
-    transform: "translate(-50%, -50%)";
 }
 .this-project-title{
     margin-top:30px;

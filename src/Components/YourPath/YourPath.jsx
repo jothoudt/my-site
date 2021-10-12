@@ -26,7 +26,7 @@ function YourPath(){
             <div className="project-description">
                 <h3><u>Description:</u></h3>
                 <p>The Yourpath project was built for an organization that helps individuals
-                    with substance abuse on their path to treatment. While remotely working with a team,
+                    with substance abuse issues on their path to treatment. While remotely working with a team,
                     we were tasked with building an application that represented a variety of user data collected
                     through an assessment form on YourPath's website. We targeted the Jotform Api, where the information
                     was being stored, and built a customizable dashboard to display the information in a variety of
