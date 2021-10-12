@@ -9,7 +9,7 @@ with.*/
 function Home(){
     return(
         <div className="grid-container">
-            <div>
+            <div className="home-title">
                 <h1>Home</h1>
             </div>
             <div classname="home-container">
