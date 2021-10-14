@@ -22,6 +22,7 @@ function TodoApp(){
                     <li>Node/Express</li>
                     <li>Python/Flask</li>
                     <li>Java/Spring</li>
+                    <li>Go</li>
                     <li>PostgreSQL</li>
                 </ul>
             </div>
@@ -56,6 +57,7 @@ function TodoApp(){
                             <li><a href="https://github.com/jothoudt/backend-todo-node-express"> Node/Express/PostgreSQL</a></li>
                             <li><a href="https://github.com/jothoudt/python-to-do-backend"> Python/Flask/PostgreSQL </a></li>
                             <li><a href="https://github.com/jothoudt/spring-backend-todo"> Java/Spring/PostgreSQL </a></li>
+                            <li><a href="https://github.com/jothoudt/go-backend-todo"> Go/PostgreSQL </a></li>
                         </ul>
                     </div>
                 </div>
