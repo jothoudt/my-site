@@ -82,9 +82,9 @@ function Projects(){
             style={{backgroundColor:"#E5E4E2", color:"#000000"}}
 
           >
-            <Tab label="YourPath" {...a11yProps(0)} />
+            <Tab label="To-Do Apps" {...a11yProps(0)} />
+            <Tab label="YourPath"  {...a11yProps(1)} />
             <Tab label="MealReel" {...a11yProps(1)} />
-            <Tab label="To-Do Apps" {...a11yProps(1)} />
           </Tabs>
           <TabPanel value={value} index={0} dir={theme.direction}>
             <TodoApp />
